@@ -9,6 +9,13 @@ function menuFunc() {
 }
 
 
+
+
+
+
+
+
+/**
 let slideIndex = 0;
 showSlides();
 
@@ -23,3 +30,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000);
 }
+**/

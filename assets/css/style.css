@@ -73,6 +73,75 @@ body {
   }
 }
 
+header{
+  margin-top: 45px;
+  width: 100%;
+  min-height: 100px;
+  padding: 15px;
+  /*background: red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.discover{
+  padding: 15px 8px;
+}
+.discover-img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.search-place {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-place > input {
+  width: 68%;
+  margin-right: 4px;
+}
+.search-place > button {
+  width: 100%; /*30%;*/
+  padding: 10px;
+  font-size: 28px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+.search-results {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  min-height: 400px;
+  /*background: red;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.place {
+  width: 200px;
+}
+.place > img {
+  width: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.place > .name {
+  text-align: center;
+}
+
+
+
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
