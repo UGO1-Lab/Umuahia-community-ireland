@@ -291,3 +291,6 @@ details > summary {
 .highlight{
   color: var(--bg-dark-green);
 }
+.fab {
+  color: white;
+}
