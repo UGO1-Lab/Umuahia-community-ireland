@@ -1,9 +1,42 @@
-/*
-body {
-  background: red;
-}*/
+:root {
+  --bg-white: #ffffff;
+  --bg-faint-green: #F1FFF1;
+  --bg-dark-green: rgba(103, 159, 211, 1);
+  --text-white-color: #fefefe;
+  --active: rgba(36, 115, 187, 1);
+  --sub-text: #8B8DA2;
+}
 
 main {
-  background: red;
-  margin-top: 100px;
+  background: url('/assets/images/slide/3.png'); /*red;*/
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+section {
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.head {
+  margin: 5px 0;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.vid {
+  width: 30%;
+}
+.sub {
+  color: var(--bg-dark-green);
+  margin: 15px 0;
+}
+
+p {
+  margin: 15px 0;
 }
